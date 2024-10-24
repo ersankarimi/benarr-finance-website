@@ -1,4 +1,7 @@
 {
+  "name": "benarr-finance-website",
+  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
     "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css"
