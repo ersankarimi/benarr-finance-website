@@ -1,0 +1,18 @@
+/* 
+* This file is used to import the fonts and the Tailwind CSS framework.
+* This fonts variable from range 200 to 700.
+*/
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src:
+    url("../fonts/ClashDisplay/ClashDisplay-Variable.woff2") format("woff2"),
+    url("../fonts/ClashDisplay/ClashDisplay-Variable.woff") format("woff"),
+    url("../fonts/ClashDisplay/ClashDisplay-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
